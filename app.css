@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(44, 40, 40);
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar-brand {
+    color: brown;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+#headingGroup span {
+    color: red;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    align-items: center;
+    color: aliceblue;
+}
+
+p {
+    color: brown;
+    justify-content: center;
+}
+
+.content {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#navBAR.scrolled {
+    background-color: rgb(127, 89, 89);
+    transition: background 500ms;
+}
